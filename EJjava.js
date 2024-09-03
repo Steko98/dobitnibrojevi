@@ -10,7 +10,7 @@ function getRandomNumbers(range, count) {
 }
 
 document.getElementById('generateButton').addEventListener('click', () => {
-    const randomNumbers1to50 = getRandomNumbers(50, 7);
+    const randomNumbers1to50 = getRandomNumbers(50, 5);
     const randomNumbers1to12 = getRandomNumbers(12, 2);
 
     document.getElementById('numbers1to50').textContent = `Prvih 5 brojeva: ${randomNumbers1to50.join(', ')}`;
